@@ -1,0 +1,166 @@
+#root {
+   text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  position: absolute;
+  border-bottom-left-radius: 50%;
+  bottom: 30;
+  transform: translateX(-50%);
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #e20a0a;
+}
+.tab{
+  tr:nth-child(even) {background-color: rgb(12, 238, 42)}
+  table, th, td {
+  border: 1px solid;
+}
+}
+.p1{
+   font-family: "Copperplate", fantasy;
+    font-size: 25px;
+    font-weight: bold;
+}
+.p2{
+  font-family: Monaco,monospace;
+  font-size: 18px;
+;
+}
+.p3{
+   font-family: "Copperplate", fantasy;
+    font-size: 70px;
+    font-weight: bold;
+}
+.p4{
+  font-family: "Garamond", Serif;
+    font-size: 70px;
+    font-weight: lighter;
+}
+.p5{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: calc(9000);
+  font-weight: bold;
+}
+.showcase {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.showcase video{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.title{
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  font-size: 100px;
+  color: #c9c507;
+  mix-blend-mode: multiply;
+}
+
+.glassmorphism {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+  padding: 2rem;
+}
+
+.title {
+  font-family: 'Georgia', serif;
+  color: #003366;
+}
+
+.motto {
+  font-style: italic;
+  color: #996933;
+}
+
+.image-section {
+  margin-top: 2rem;
+}
+.school-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+.footer p {
+  margin: 0.3rem 0;
+}
+
+/* Fix the media query */
+@media (max-width: 600px) {
+  .footer {
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
+}
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Flexbox layout to push footer down */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.school-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+}
+.background-container {
+  background-color: grey;
+ 
+}
+@keyframes scroll {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+  
+
+    
